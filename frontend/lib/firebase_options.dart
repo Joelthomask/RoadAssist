@@ -31,7 +31,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCWy2J9NExP6qxuy6Cpnkhf_rejPTLAZIM',
+    apiKey: 'API KEY',
     appId: '1:659879569143:android:c587b7e6671169dc4795f2',
     messagingSenderId: '659879569143',
     projectId: 'roadassist-d805b',
