@@ -1,0 +1,75 @@
+name: frontend
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Google Maps and location services
+  google_maps_flutter: ^2.6.0
+  geocoding: ^2.1.1
+  geolocator: ^11.0.1
+
+  # Firebase dependencies
+  firebase_core: 3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_app_check: ^0.3.2+4
+
+  firebase_storage: 12.4.4 # Update to the latest version
+
+
+  # Utilities
+  http: ^1.2.0
+  permission_handler: ^10.3.0
+  shared_preferences: ^2.1.1
+
+  # Icons and UI
+  cupertino_icons: ^1.0.8
+
+  # Mapbox (if still needed)
+  mapbox_search: ^4.2.2
+
+  # Flutter map (optional if needed)
+  flutter_map: ^8.0.0
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RoadRadio
+      fonts:
+        - asset: assets/fonts/RoadRadio-Bold.ttf
+
+  assets: 
+    - assets/images/logo.png
+    - assets/images/slide1.jpeg
+    - assets/images/slide2.jpg
+    - assets/images/slide3.jpeg
+    - assets/images/fuel_bg.jpg
+    - assets/images/car_select_bg.jpg
+    - assets/images/bike.png
+    - assets/images/car.png
+    - assets/images/vehicle_details.png
+    - assets/images/vehicle_bg.jpg
+    - assets/avatars/avatar1.png
+    - assets/avatars/avatar2.png
+    - assets/avatars/avatar3.png
+    - assets/avatars/avatar4.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.jpg"
